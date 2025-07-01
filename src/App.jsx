@@ -1,8 +1,8 @@
 import { Routes, Route } from "react-router";
 
-import Links from "./Components/Links.jsx";
 import MainLayout from "./layouts/MainLayout.jsx";
 import Home from "./pages/Home.jsx";
+import Links from "./pages/Links.jsx";
 import AddLink from "./pages/AddLink.jsx";
 
 
