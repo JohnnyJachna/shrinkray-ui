@@ -1,12 +1,23 @@
 .linkList {
-  margin: 0;
-  padding: 0;
+  max-width: 1250px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 10px;
+  padding-left: 10px;
+  min-height: 75vh;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 10px 20px;
 }
 
 .linkLink {
   font-size: 2rem;
+  text-decoration: none;
 }
 
 .linkLink:hover {
-  color:greenyellow; 
+  color: greenyellow;
 }

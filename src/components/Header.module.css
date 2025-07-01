@@ -1,10 +1,46 @@
 .header {
   display: flex;
   align-items: center;
-  flex-wrap: wrap;
   justify-content: space-between;
-  gap: 12px;
   margin: 0 auto 1rem;
-  padding: 16px;
-  color:greenyellow
+  padding: 0px 16px;
+  color: greenyellow;
+  background-color: mediumslateblue;
+  border: none;
+  border-radius: 10px;
+}
+
+.title {
+  color: greenyellow;
+  font-size: 2em;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.title:hover {
+  color: rgb(245, 255, 230);
+}
+
+.header ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 0;
+}
+
+.header li {
+  padding: 20px;
+}
+
+.link {
+  text-decoration: none;
+  color: greenyellow;
+  font-size: 1.35em;
+  font-weight: bold;
+}
+
+.link:hover {
+  color: rgb(245, 255, 230);
 }
