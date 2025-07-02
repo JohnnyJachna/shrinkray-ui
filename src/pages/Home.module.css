@@ -1,0 +1,28 @@
+.home {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+img {
+  /* max-width: 35vw;
+  max-height: 35vw; */
+  margin: 0 auto;
+  max-width: 800px;
+  padding: 2rem;
+  width: 100%;
+}
+
+a {
+  color: rgb(123, 104, 238);
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(177, 165, 247);
+  text-decoration: underline;
+}
