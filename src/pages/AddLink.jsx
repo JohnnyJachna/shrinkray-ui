@@ -49,6 +49,7 @@ function AddLink() {
           <input
             type="text"
             name="linkName"
+            placeholder="Name..."
             value={linkName}
             onChange={(e) => setLinkName(e.target.value)}
           />
@@ -58,6 +59,8 @@ function AddLink() {
           <input
             type="text"
             name="linkUrl"
+            placeholder="URL..."
+            className={styles.link_url}
             value={linkUrl}
             onChange={(e) => setLinkUrl(e.target.value)}
           />
