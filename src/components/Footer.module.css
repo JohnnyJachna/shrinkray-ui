@@ -1,13 +1,7 @@
 .footer {
-  /* display: flex;
-  align-items: center;
-  justify-content: center; */
-  /* position: fixed;
-  left: 0;
-  bottom: 0; */
-  margin-top: auto;
-  text-align: center;
-  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: auto 8px 8px;
   color: greenyellow;
   font-size: 1.2rem;
   font-weight: 575;

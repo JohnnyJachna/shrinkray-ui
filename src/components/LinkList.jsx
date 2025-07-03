@@ -24,7 +24,7 @@ const LinkList = () => {
                 <a
                   href={`https://bzzt.fun/${link.short_url}`}
                   title={`Short URL for ${link.title}`}
-                  className={styles.linkLink}
+                  className={styles.listLink}
                 >
                   {link.title}
                 </a>

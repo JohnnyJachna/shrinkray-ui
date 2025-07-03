@@ -9,12 +9,9 @@
 }
 
 img {
-  /* max-width: 35vw;
-  max-height: 35vw; */
-  margin: 0 auto;
-  max-width: 800px;
+  max-width: 75vw;
+  max-height: 75vh;
   padding: 2rem;
-  width: 100%;
 }
 
 a {

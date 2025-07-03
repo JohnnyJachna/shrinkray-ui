@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { useNavigate } from "react-router";
 import { nanoid } from "nanoid";
+import styles from "./AddLink.module.css";
 
 function AddLink() {
   const [linkName, setLinkName] = useState("");
@@ -37,25 +38,31 @@ function AddLink() {
   };
 
   return (
-    <form method="POST" onSubmit={(e) => handleSubmit(e)}>
-      <label>
-        Name of Link
-        <input
-          type="text"
-          name="linkName"
-          value={linkName}
-          onChange={(e) => setLinkName(e.target.value)}
-        />
-      </label>
-      <label>
-        URL of Link
-        <input
-          type="text"
-          name="linkUrl"
-          value={linkUrl}
-          onChange={(e) => setLinkUrl(e.target.value)}
-        />
-      </label>
+    <form
+      method="POST"
+      className={styles.add_link}
+      onSubmit={(e) => handleSubmit(e)}
+    >
+      <div className={styles.text_input}>
+        <label>
+          Name of Link
+          <input
+            type="text"
+            name="linkName"
+            value={linkName}
+            onChange={(e) => setLinkName(e.target.value)}
+          />
+        </label>
+        <label>
+          URL of Link
+          <input
+            type="text"
+            name="linkUrl"
+            value={linkUrl}
+            onChange={(e) => setLinkUrl(e.target.value)}
+          />
+        </label>
+      </div>
       <button type="submit">ZAP IT!</button>
     </form>
   );
