@@ -1,11 +1,10 @@
 import styles from "./Home.module.css";
-import shrinkray from "../assets/shrinkray.png";
 
 const Home = () => {
   return (
     <div className={styles.home}>
       <img
-        src={shrinkray}
+        src="./images/shrinkray.png"
         className="shrinkray-image"
         alt="Image of a shrink ray"
       />
