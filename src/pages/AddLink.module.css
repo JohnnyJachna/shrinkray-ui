@@ -30,6 +30,7 @@ input {
 
 button {
   background-color: mediumslateblue;
+  transition: background-color 0.3s ease;
   border: none;
   border-radius: 15px;
   margin-top: 8px;
