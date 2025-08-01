@@ -13,6 +13,7 @@ function AddLink() {
 
     const shortUrl = nanoid(6);
     const apiUrl = `${import.meta.env.VITE_API_URL}/urls/add`;
+    const access_token = localStorage.getItem("access_token");
 
     const body = {
       long_url: linkUrl,
@@ -27,6 +28,7 @@ function AddLink() {
         body: JSON.stringify(body),
         headers: {
           "Content-Type": "application/json",
+          Authorization: `Bearer ${access_token}`,
         },
       });
       const data = await response.json();
