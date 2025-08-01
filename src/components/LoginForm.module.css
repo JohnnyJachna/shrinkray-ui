@@ -1,0 +1,13 @@
+.loginPage {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.loginPage h2 {
+  margin-bottom: 2px;
+}
